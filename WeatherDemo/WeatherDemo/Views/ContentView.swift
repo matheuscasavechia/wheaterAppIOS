@@ -13,7 +13,6 @@ struct ContentView: View {
     var weatherManager = WeatherManager()
     @State var weather: ResponseBody?
 
-    // testing commit
     var body: some View {
         VStack{
 
