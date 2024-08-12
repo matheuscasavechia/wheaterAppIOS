@@ -15,6 +15,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack{
+            // teste de commit
 
             if let location = locationManager.location {
                 if let weather = weather{
